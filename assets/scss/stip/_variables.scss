@@ -1,0 +1,16 @@
+// Fonts
+$sans-serif: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$serif: 'Lora', 'Times', 'Times New Roman', serif;
+
+// Responsive breaks
+$break-large: 980px;
+
+// Portrait size
+$portrait-size: 300px;
+$portrait-border-width: 20px;
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+       -moz-transition: $args;
+            transition: $args;
+}

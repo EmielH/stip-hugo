@@ -1,0 +1,64 @@
+html,
+body {
+    color: $color-foreground;
+    margin: 0;    
+    padding: 1rem;
+}
+
+html {
+    font-family: $sans-serif;
+    font-size: 16px;
+    overflow-y: auto;
+}
+
+body {
+    background-color: $color-background;
+    background: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    @include transition(color .2s ease-out);    
+    color: $color-foreground;
+
+    &:hover {
+        color: $color-hover;
+    }
+}
+
+h1 {
+    font-size: 9rem;
+    font-weight: 100;
+
+    @media screen and (max-width: $break-large) {
+        font-size: 6rem;
+    }
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+p {
+    font-family: $serif;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+img.portrait {
+    border-radius: 50%;
+    border: $portrait-border-width solid $color-foreground;
+    width: $portrait-size;
+    height: $portrait-size;
+}
+
+.portrait-container {
+    border-radius: 50%;
+    border: 65vw solid $color-circle;
+    margin: -63vw;
+    height: $portrait-size + 2 * $portrait-border-width;
+    width: $portrait-size + 2 * $portrait-border-width;
+
+}
