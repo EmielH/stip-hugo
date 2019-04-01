@@ -4,6 +4,10 @@ $color-circle: {{ .Site.Params.colors.circle | default "#164972" }};
 $color-foreground: {{ .Site.Params.colors.foreground | default "#fff" }};
 $color-hover: {{ .Site.Params.colors.hover | default "#88fcf0" }};
 
+body {
+    background: url('{{ "/images/background.jpg" | relURL }}');
+}
+
 @import 'stip/variables';
 @import 'stip/base';
 @import 'stip/layout';
