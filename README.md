@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/EmielH/stip-hugo.svg?branch=master)](https://travis-ci.com/EmielH/stip-hugo)
 
-Stip is a single-page Hugo theme for personal introductions. Add a portrait, an introduction, several links, and you're set. The theme was inspired by Material Design's tap target design pattern. [An implementation of this design pattern](https://sjwall.github.io/MaterialTapTargetPrompt/).
+Stip is a single-page Hugo theme to introduce yourself. Add a portrait, an introduction, several links, and you're set. The theme was inspired by Material Design's tap target design pattern. [An implementation of this design pattern](https://sjwall.github.io/MaterialTapTargetPrompt/).
 
 ![Stip screenshot](https://raw.githubusercontent.com/EmielH/stip-hugo/master/images/screenshot.png)
 
