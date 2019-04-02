@@ -3,7 +3,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "Stip"
 theme = "stip"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
     name = "Jane Doe"
