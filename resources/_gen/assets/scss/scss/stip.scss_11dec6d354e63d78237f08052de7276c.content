@@ -1,6 +1,9 @@
+body {
+  background: url("/images/background.jpg"); }
+
 html,
 body {
-  color: #c7d0fc;
+  color: #fff;
   margin: 0;
   padding: 1rem; }
 
@@ -10,8 +13,7 @@ html {
   overflow-y: auto; }
 
 body {
-  background-color: #000000;
-  background: url("/images/background.jpg");
+  background-color: #fff;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
@@ -19,9 +21,9 @@ a {
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  color: #c7d0fc; }
+  color: #fff; }
   a:hover {
-    color: #cd6cf7; }
+    color: #88fcf0; }
 
 h1 {
   font-size: 9rem;
@@ -41,13 +43,13 @@ p {
 
 img.portrait {
   border-radius: 50%;
-  border: 20px solid #c7d0fc;
+  border: 20px solid #fff;
   width: 300px;
   height: 300px; }
 
 .portrait-container {
   border-radius: 50%;
-  border: 65vw solid #3942ba;
+  border: 65vw solid #164972;
   margin: -63vw;
   height: 340px;
   width: 340px; }
