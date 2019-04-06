@@ -22,6 +22,12 @@
     {{- $style			:= resources.Get "scss/stip.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+    <style>
+        body {
+            background: url('{{ "images/background.jpg" | relURL }}');
+        }    
+    </style>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
